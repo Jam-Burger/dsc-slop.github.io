@@ -1900,6 +1900,7 @@ a:active {
     font-size: 20px;
     color: #818181;
     font-family: 'CeraPro';
+    margin-left: 5%;
 }
 
 .footer-logo-img {
@@ -1913,6 +1914,10 @@ a:active {
     .footer-info,
     .footer-social-links {
         font-size: 16px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 3%;
     }
     .footer-logo-img {
         width: 60%;
@@ -1933,7 +1938,12 @@ a:active {
     }
     .footer-info,
     .footer-social-links {
+        margin-top: 5%;
         font-size: 14px;
+        width: 80%;
+        margin-bottom: 5%;
+        margin: auto;
+        text-align: center;
     }
     .footer-logo-img {
         width: 50%;
@@ -2184,7 +2194,7 @@ a:active {
 
 .footer-wheel-img {
     position: absolute;
-    left: 10%;
+    left: 30%;
     /* transform: translate(-50%, -50%); */
     animation: spin 4s linear infinite;
     -webkit-animation: spin 4s linear infinite;
@@ -2199,6 +2209,7 @@ a:active {
 @media screen and (max-width: 992px) {
     .footer-wheel-img {
         width: 10%;
+        left:10%;
     }
 }
 
