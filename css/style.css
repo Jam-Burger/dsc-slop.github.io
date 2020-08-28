@@ -216,14 +216,27 @@ a:active {
 
 .animation-custom {
     position: absolute;
-    top: -150px;
-    left: -200px;
+    left: 44%;
+    top: 43%;
+    /* margin: auto; */
+}
+
+.animation-custom svg {
+    max-width: 30%;
+    transform: scale(4) translateY(-45%);
 }
 
 .logo-custom {
     position: absolute;
-    top: 100px;
-    left: -270px;
+    left: 42%;
+    top: 55%;
+}
+
+.logo-custom img {
+    /* max-width: 900px; */
+    /* width: 50%; */
+    max-width: 30%;
+    transform: scale(4);
 }
 
 #logo {
@@ -699,6 +712,10 @@ a:active {
         width: 60%;
         margin-bottom: 20px;
     }
+    .logo-custom img {
+        max-width: 80%;
+        padding-right: 10%;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -764,6 +781,10 @@ a:active {
     }
     #content div {
         max-width: 58%;
+    }
+    .logo-custom img {
+        max-width: 80%;
+        padding-right: 10%;
     }
 }
 
@@ -889,6 +910,10 @@ a:active {
     #brochure {
         height: 50vh;
     }
+    .logo-custom img {
+        max-width: 70%;
+        padding-right: 10%;
+    }
 }
 
 @media screen and (max-width:780px) {
@@ -963,6 +988,10 @@ a:active {
         text-align: center;
         margin-top: 50px;
     }
+    .logo-custom img {
+        max-width: 70%;
+        padding-right: 10%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1021,6 +1050,10 @@ a:active {
         top: 0%;
         left: 0;
         height: 20%;
+    }
+    .logo-custom img {
+        max-width: 70%;
+        padding-right: 10%;
     }
 }
 
@@ -1085,6 +1118,10 @@ a:active {
         top: -20px;
         left: -36px;
         height: 110%;
+    }
+    .logo-custom img {
+        max-width: 60%;
+        padding-right: 8%;
     }
 }
 
@@ -1155,6 +1192,10 @@ a:active {
     #brochure {
         height: 40vh;
     }
+    .logo-custom img {
+        max-width: 50%;
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1180,11 +1221,19 @@ a:active {
         height: 200px;
         transform: translate(0%, -105%);
     }
+    .logo-custom img {
+        max-width: 50%;
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 440px) {
     .heading {
         max-width: 100%;
+    }
+    .logo-custom img {
+        max-width: 50%;
+        padding-right: 5%;
     }
     /* #line img {
         width: 25%;
@@ -1427,19 +1476,22 @@ a:active {
 
 .main-landing-text {
     position: absolute;
-    left: 50%;
-    top: 40%;
+    width: 100%;
+    height: 100%;
+    /* left: 40%; */
+    /* top: 40%;
     transform: translate(-50%, -50%);
     width: 30%;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8); */
 }
 
-.hint {
+
+/* .hint {
     position: absolute;
-    left: 50%;
+    left: 40%;
     transform: translate(-45%, 0);
     margin-bottom: 15px;
-}
+} */
 
 .landing-college-name-row {
     font-size: 2em;
