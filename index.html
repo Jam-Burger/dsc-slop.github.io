@@ -83,121 +83,7 @@
           font-style: normal;
       }
 
-      #content div h1,
-      #com-content div h1,
-      .faq-head h1,
-      h1.what {
-          font-family: 'CeraPro-bold';
-      }
 
-      #content div p,
-      #com-content div p {
-          font-family: 'CeraPro-regular';
-      }
-
-      .link p,
-      .link a,
-      .collapsible,
-      .later p,
-      .content,
-      #lady p,
-      a.nav-link {
-          font-family: 'CeraPro-medium';
-      }
-
-      img.sloplogo {
-          position: relative;
-          max-width: 50%;
-          max-height: 100vh;
-          margin: auto;
-          left: 20%;
-          bottom: -29%;
-      }
-
-      /*        img.sloplogo:empty
-      {
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-          -moz-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-      }
-      @media screen  and (orientation: potrait)
-      {
-          img.sloplogo {max-width: 90%; }
-      }
-      @media screen and (orientation: landscape)
-      {
-          img.sloplogo {max-height: 90%;}
-      }*/
-
-      .slop1 #slop {
-          width: 100%;
-          display: inline-block;
-          vertical-align: middle;
-          font: 0/0 serif;
-          text-shadow: none;
-          color: transparent;
-          background-size: 40%;
-          background-position: 50% 50%;
-          background-repeat: no-repeat;
-          margin-bottom: 50%;
-      }
-
-      .slop1 #slop .innerslop {
-          padding-top: 100.5%;
-          /* height/width of image */
-          display: block;
-          height: 0;
-      }
-
-      /* default screen, non-retina */
-      .slop1 #slop {
-          background-image: url("images/logo.png");
-      }
-
-      @media only screen and (max-width: 1000px) {
-
-          /* Small screen, non-retina */
-          .slop1 #slop {
-              background-image: url("images/logo.png");
-              padding-top: 100%;
-          }
-      }
-
-      @media only screen and (min-resolution: 2dppx) and (max-width: 320px) {
-
-          /* Small screen, retina */
-          .slop1 #slop {
-              background-image: url("images/logo.png");
-          }
-      }
-
-      @media only screen and (min-width: 321px) and (max-width: 538px) {
-
-          /* Medium screen, non-retina */
-          .slop1 #slop {
-              background-image: url("images/logo.png");
-          }
-      }
-
-      @media only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
-
-          /* Medium screen, retina */
-          .slop1 #slop {
-              background-image: url("images/logo.png");
-          }
-      }
-
-      @media only screen and (min-resolution: 2dppx) and (min-width: 539px) {
-          /* Large screen, retina */
-
-          c {
-              background-image: url("images/logo.png");
-          }
-      }
   </style>
 
 </head>
@@ -353,7 +239,7 @@
     <div class="main-landing-text" style="z-index: 10;">
       <div class="hint" style="z-index: 4;">
 
-        <div class="animation-custom">
+        <div class="animation-custom" style="margin:auto;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.05 120.82">
             <g transform="translate(58.03 -57.75)">
               <rect class="ground" ry="3.18" y="172.21" x="33.49" height="6.36" width="102.52"
@@ -611,67 +497,19 @@
           </label>
         </div>
 
-        <!-- <div class="logo-custom">
-          <img src="images/logo.png" style="max-width: 600px; z-index: 20;" />
-        </div> -->
+        <div class="logo-custom" style="margin:auto">
+          <img src="images/logo.png" style="max-width: 600px;   " />
+        </div>
 
 
 
         <!-- partial -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js'></script>
         <script src="./script.js"></script>
-
-
-        <!-- </div>
-                      <div class="list" style="z-index: 4; margin-bottom: 20px;">
-                        <div class="container-fluid">
-                          <div class="row landing-college-name-row text-center">
-                            <div class="col-6">
-                              <i class="fas fa-map-marker-alt"></i> IIIT Allahabad
-                            </div>
-                            <div class="col-6">
-                                <i class="fas fa-calendar-alt"></i> 27th-29th March
-                            </div>
-                          </div>
-                          <br>
-                          <div class="close" class="text-center">
-                            <h3>Registration over on 29th Feb</h3>
-                          </div>
-                          <br> -->
-
-        <!-- <div class="row text-center">
-                    <div class="col-12" id="devfolio" style="z-index: 5">
-                        <button class="dev" id="devfolio-apply-now" active>Apply with Devfolio</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center" style="margin: 3% 0" ;>
-                <div class="col-12 close1" id="closed">
-                    Registration closes on 7th March
-                </div>
-            </div> -->
-        <!-- <ul class="event">
-                          <li class="schedule" id="venue"><i class="fas fa-map-marker-alt"></i>IIIT Allahabad</li>
-                          <li class="schedule" id="time"><i class="fas fa-calendar-alt"></i>27th-29th March</li>
-                        </ul> -->
       </div>
-      <!-- <div id="devfolio" style="z-index: 4;">
-                        <button class="dev" style="position: relative; left: 50%; transform: translate(-50%, 0);">Apply with Devfolio</button>
-                      </div> -->
     </div>
 
 
-
-    <!-- <img src="images/Landing/back.svg" alt="" class="mountain" id="back" style="z-index: 1;">
-        <img src="images/Landing/mid.svg" alt="" class="mountain" id="mid" style="z-index: 2;">
-        <img src="images/Landing/front.svg" alt="" class="mountain" id="front" style="z-index: 4;"> -->
-
-        <div class="slop1">
-          <span id="slop" role="img" aria-label="SLoP">
-              <span class="innerslop">
-              </span>
-          </span>
-      </div>
 
   </div>
 
@@ -679,12 +517,8 @@
     <div id="test" style="width:30vw">
 
     </div>
-    <!-- <img src="images/what is/dotted_white_line.svg" alt="" id="dot-line">  -->
     <img src="images/what is/dark_triangle.svg" alt="" id="tri-dark">
-    <!-- <div class="row" id="shapes">
-                  <div id="line" class="col-sm-6"><img src="images/what is/dotted_white_line.svg" alt="line"></div>
-                  <div id="triangle" class="col-sm-6"><img src="images/what is/dark_triangle.svg" alt="triangle"></div>
-                </div> -->
+
     <div class="row" id="content">
 
       <div class="col-sm-12">
@@ -704,48 +538,9 @@
     </div>
   </div>
 
-  <!-- <div class="main-commit">
-    <img src="images/Commitment/curve_what_is_commitment.svg" alt="" class="up">
-    <div class="commitment row">
-      <!-- <div id="square" class="col-sm-6"><img src="images/Commitment/dark_square_orange.svg" alt=""></div>
-                  <div id="zigzag" class="col-sm-6"><img src="images/Commitment/white_zigzag_line.svg" alt=""></div> --/>
-      <img src="images/Commitment/white_zigzag_line.svg" alt="" id="com-line">
-      <img src="images/Commitment/dark_square_orange.svg" alt="" id="sq-orange">
-      <div class="col-sm-12" id="com-content">
-        <!-- PENDING --/>
-        <div>
-          <h1>Commitment</h1>
-          <p>
-            At Hack In The North, we create an environment that brings developers together irrespective of their gender,
-            race, sexual orientation, socioeconomic background or ethnicity. <br><br> Ever since its inception, over the
-            years, we
-            have strived to make up for the lost opportunities for women by endorsing them in tech through our various
-            programmes. <br><br> Hack In The North 2.0 had a direct entry to any and all girls’ teams and individual
-            entries while the
-            best team received special prizes and swags. In the fifth edition of Hack In The North, we took it a step
-            further and reserved 15% of the seats for female participants. Hack In The North 4.0 witnessed a special
-            monetary prize of
-            Rs. 5000 to the best performing all girls' team.
-            <br><br>
-            <a href="https://hackcodeofconduct.org/1237-hack_in_the_north_5" target="_blank">See Our
-              Code of Conduct here</a>
-          </p>
-
-        </div>
-
-      </div>
-    </div> -->
-
-
-
-  <!-- <img src="images/Commitment/bottom_curve.svg" alt="" class="down">
-  </div> -->
-
   <div class="sponsorship">
     <div class="row">
-      <!-- <div class="col-sm-12" id="female-pic">
-        <img src="images/commitment-min.jpg" alt="">
-      </div> -->
+
       <div class="col-sm-12" id="brochure">
         <img src="images/Sponsor_us/background_dotted_line.svg" alt="" class="line">
         <div class="brochure-box flex-container">
@@ -761,24 +556,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="time-line" id="timeline">
-                    <div class="row time-head">
-                      <div class="col-12 text-center">
-                        <h1 class="what">Timeline</h1>
-                      </div>
-                    </div>
-
-                    <div class="row time-svg" >
-                      <div class="col-12" style="padding: 0; margin-bottom: 10%;" id="pc">
-                        <img src="./images/timeline/timeline_pc.svg" alt="">
-                      </div>
-                      <div class="col-12" style="padding: 0;" id="mobile">
-                        <img src="./images/timeline/timeline_mobile.svg" alt="">
-                      </div>
-                    </div>
-
-                  </div> -->
 
     </div>
 
@@ -957,202 +734,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="prize-box">
-            <div class="image-dabba" style="height: 70%">
-              <div class="image-ka-text">
-                <img src='images/Prizes/boat1.webp' class='prize-ka-image'>
-              </div>
-            </div>
-            <div class="prize-number">
-              4th Prize
-              <div class="prize-name">
-                Boat 1000 Speakers
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="prize-box">
-            <div class="image-dabba" style="height: 70%">
-              <div class="image-ka-text">
-                <img src='images/Prizes/ghost.png' class='prize-ka-image' id="ghost">
-              </div>
-            </div>
-            <div class="prize-number">
-              5th Prize
-              <div class="prize-name">
-                Ghost Anti-Theft Bags
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="prize-box">
-            <div class="image-dabba" style="height: 70%">
-              <div class="image-ka-text">
-                <img src='images/Prizes/5.png' class='prize-ka-image'>
-              </div>
-            </div>
-            <div class="prize-number girls">
-              Best All Girls Team
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 polulu-prize">
-          <div class="prize-box">
-            <div class="image-dabba" style="height: 70%">
-              <div class="image-ka-text">
-                <img src='images/Prizes/10.png' class='prize-ka-image'>
-              </div>
-            </div>
-            <div class="prize-number girls">
-              Best Hardware Hacks
-            </div>
-          </div>
-        </div> -->
-        </div>
-      </div>
 
-      <!-- <div class="row" style="margin-bottom: 5%;">
-      <div class="col-12 text-center">
-        <h1 class="what">Title Sponsor </h1>
-      </div>
-    </div>
-
-    <div class="row justify-content-around main-sponsors" style="margin-bottom: 15%;">
-      <div class="col-12 col-lg-12 image-column diamond">
-        <a href="https://www.atlassian.com" target="_blank"><img src="images/sponsors/atlassian.png"
-            class="sponsor-image"></a>
-      </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 5%;" id="sponsors-page">
-      <div class="col-12 text-center">
-        <h1 class="what"> Event Partner </h1>
-      </div>
-    </div>
-
-    <div class="row justify-content-around main-sponsors event" style="margin-bottom: 15%;">
-      <div class="col-12 col-lg-12 image-column">
-        <a href="http://diciitbhu.com/concept/?fbclid=IwAR2_qOhahtcfRf8zwaowyszsFWIticCnMFXwr6rH619zXXWwnXrm66dmQc4"
-          target="_blank"><img src="images/sponsors/DIC.png" class="sponsor-image dic"></a>
-      </div>
-
-      <div class="col-12 col-lg-12 image-column" id="mlh-logo">
-        <a href="https://mlh.io/" target="_blank"><img src="images/sponsors/mlh-c.png" class="sponsor-image mlh"></a>
-      </div>
-
-      <div class="col-12 col-lg-12 image-column" id="mlh-logo">
-        <a href="https://amul.com/" target="_blank"><img src="images/sponsors/amul.png" class="sponsor-image amul"></a>
-      </div>
-    </div>
-
-
-
-    <div class="row" style="margin-bottom: 5%;">
-      <div class="col-12 text-center">
-        <h1 class="what"> Sponsors </h1>
-      </div>
-    </div>
-
-    <div class="row justify-content-around main-sponsors" style="margin-bottom: 15%;">
-
-      <div class="col-12 col-lg-12 image-column diamond">
-        <a href="https://www.elastic.co/" target="_blank"><img
-            src="images/sponsors/new_sponsors/logo-elastic-outline-white.svg" class="sponsor-image"></a>
-      </div>
-
-      <div class="col-12 col-lg-12 image-column diamond">
-        <a href="https://www.name.com/" target="_blank"><img src="images/sponsors/new_sponsors/name.jpg"
-            class="sponsor-image"></a>
-      </div>
-
-
-      <div class="col-12 col-lg-6 image-column platinum">
-        <a href="https://github.com/" target="_blank"><img src="images/sponsors/GitHub_Logo_White.png"
-            class="sponsor-image"></a>
-      </div>
-
-      <div class="col-12 col-lg-6 image-column platinum">
-        <a href="https://devfolio.co/" target="_blank"><img src="images/sponsors/dev.svg" class="sponsor-image"></a>
-      </div>
-
-      <div class="col-12 col-lg-6 image-column">
-        <a href="https://matic.network/" target="_blank"><img src="images/sponsors/matic.png" style="width:75%;"
-            class="sponsor-image"></a>
-      </div>
-
-      <!-- <div class="col-12 col-lg-6 image-column">
-                    <a href="https://quantstamp.com/" target="_blank"><img src="images/sponsors/quantstamp.svg" style="width:75%;" class="sponsor-image"></a>
-                  </div> -->
-
-      <!-- <div class="col-12 col-lg-6 image-column">
-      <a href="https://www.pololu.com/" target="_blank"><img src="images/sponsors/polulo.png" style="width:75%;"
-          class="sponsor-image"></a>
-    </div> -->
-
-
-      <!-- <div class="col-12 col-lg-6 image-column">
-                    <a href="https://sentry.io/" target="_blank"><img src="images/sponsors/sentry-logo-light.svg" style="width:80%;" class="sponsor-image"></a>
-                  </div> -->
-      <!-- </div>
-
-  <br><br>
-  <div class="row" id="content2" style="margin-bottom: 5%;">
-    <div class="col-sm-12 text-center">
-      <h1 class="what"> Patrons </h1>
-    </div>
-  </div>
-
-
-  <div class="row justify-content-center" style="margin-bottom: 10%;">
-    <div class="col-12 col-md-6 col-lg-3 image-column invision">
-      <a href="https://www.invisionapp.com/" target="_blank"><img src="images/sponsors/invision.png"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://codingblocks.com/" target="_blank"><img src="images/sponsors/new_sponsors/cblogo.png"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://progate.com/" target="_blank"><img src="images/sponsors/progate.png" class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://dev.to/" target="_blank"><img src="images/sponsors/dev-white.png" class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://www.creative-tim.com/" target="_blank"><img src="images/sponsors/tim.jpg"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://hackr.io/" target="_blank"><img src="images/sponsors/hackerio.png" class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="http://rpabotpro.com/" target="_blank"><img src="images/sponsors/botpro.png" class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://zulipchat.com/" target="_blank"><img src="images/sponsors/zulip.svg" class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://gocrowdera.com/" target="_blank"><img src="images/sponsors/Crowdera.png"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://sentry.io/" target="_blank"><img src="images/sponsors/sentry-logo-light.svg" style="width:80%;"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://fold.money/" target="_blank"><img src="images/sponsors/Logo-White.png" style="width:40%;"
-          class="sponsor-image"></a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3 image-column">
-      <a href="https://gradient.paperspace.com/" target="_blank"><img src="images/sponsors/gradient.png"
-          style="width:60%;" class="sponsor-image"></a>
-    </div>
-  </div>
-  </div>
-  </div> -->-->
 
       <div class="footer-outer">
         <img src="./images/Footer/Vector.svg" alt="" class="footer-wheel-img">
