@@ -822,6 +822,12 @@ background-color: #555;
    color: #818181;
 }
 
+@media screen and (min-width: 1000px){
+   .footer-social-links {
+      margin-left: 13% !important;
+   }
+}
+
 .footer-logo-img {
    width: 40%;
 }
