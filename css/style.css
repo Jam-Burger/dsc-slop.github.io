@@ -232,11 +232,18 @@ a:active {
     top: 55%;
 }
 
+.devfolio-div {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 80%;
+}
+
 .logo-custom img {
     /* max-width: 900px; */
     /* width: 50%; */
     max-width: 30%;
-    transform: scale(4);
+    transform: scale(3.5);
 }
 
 #logo {
@@ -2343,4 +2350,6 @@ a:active {
 
 #devfolio-apply-now .logo {
     fill: white;
+    left: auto;
+    right: auto;
 }

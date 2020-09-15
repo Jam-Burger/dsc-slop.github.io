@@ -102,6 +102,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto navbar-list">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://slop.dscdaiict.in/">Participate</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -115,9 +118,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://slop.dscdaiict.in/">Register</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
@@ -388,24 +388,30 @@
                           <path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z"></path>
                         </svg> -->
         </label>
+
       </div>
 
       <div class="logo-custom">
         <img src="images/logo.png" />
       </div>
 
-
+      <div class="row text-center devfolio-div">
+        <div class="col-12" id="devfolio" style="z-index: 5;">
+          <button class="dev" id="devfolio-apply-now" active>Apply with Devfolio</button>
+        </div>
+      </div>
 
       <!-- partial -->
       <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js'></script>
       <script src="./script.js"></script>
     </div>
-
-
-
   </div>
 
+
+
+
   <div class="about" id="about">
+
     <div id="test" style="width:30vw">
 
     </div>
@@ -636,7 +642,7 @@
 
       <div class="row justify-content-around main-sponsors" style="margin-bottom: 15%;">
 
-        
+
         <!--
         <div class="col-12 col-lg-12 image-column diamond">
           <a href="https://www.name.com/" target="_blank"><img src="images/sponsors/new_sponsors/name.jpg" class="sponsor-image"></a>
@@ -650,11 +656,13 @@
         <div class="col-12 col-lg-6 image-column">
           <a href="https://devfolio.co/" target="_blank"><img src="images/sponsors/dev.svg" class="sponsor-image"></a>
         </div>
-        <div class="col-12 col-lg-6 image-column" >
-          <a href="https://www.elastic.co/" target="_blank"><img src="images/sponsors/new_sponsors/logo-elastic-outline-white.svg" class="sponsor-image"></a>
+        <div class="col-12 col-lg-6 image-column">
+          <a href="https://www.elastic.co/" target="_blank"><img
+              src="images/sponsors/new_sponsors/logo-elastic-outline-white.svg" class="sponsor-image"></a>
         </div>
         <div class="col-12 col-lg-6 image-column">
-          <a href="https://www.hackathonsinternational.com/" target="_blank"><img src="images/sponsors/hackathonsinternational.png" style="width:75%;" class="sponsor-image"></a>
+          <a href="https://www.hackathonsinternational.com/" target="_blank"><img
+              src="images/sponsors/hackathonsinternational.png" style="width:75%;" class="sponsor-image"></a>
         </div>
 
         <!-- <div class="col-12 col-lg-6 image-column">
@@ -695,13 +703,16 @@
               class="sponsor-image"></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://www.sashido.io/en/" target="_blank"><img src="images/sponsors/sashido-logo-for sites.png" style="width:75%;" class="sponsor-image"></a>
+          <a href="https://www.sashido.io/en/" target="_blank"><img src="images/sponsors/sashido-logo-for sites.png"
+              style="width:75%;" class="sponsor-image"></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://1password.com/" target="_blank"><img src="images/sponsors/1Password.svg" style="width:37%;" class="sponsor-image"></a>
+          <a href="https://1password.com/" target="_blank"><img src="images/sponsors/1Password.svg" style="width:37%;"
+              class="sponsor-image"></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://www.bugsee.com/" target="_blank"><img src="images/sponsors/bugsee.svg" style="width:50%;" class="sponsor-image"></a>
+          <a href="https://www.bugsee.com/" target="_blank"><img src="images/sponsors/bugsee.svg" style="width:50%;"
+              class="sponsor-image"></a>
         </div>
       </div>
     </div>
@@ -728,6 +739,7 @@
           <div class="col-12" style="color: white">
             Copyright © SLoP, DAIICT Gandhinagar, 2020
           </div>
+
         </div>
 
         <div class="row footer-social-links justify-content-around">
@@ -745,6 +757,9 @@
           </div>
         </div>
 
+        <div class=" footer-row " style="margin-top:0.5%; padding-top: 10px">
+          Theme inspired by hackinthenorth.com
+        </div>
       </div>
     </div>
   </div>
@@ -797,6 +812,29 @@
         path.style.strokeDasharray = pathLength + ' ' + pathLength;
       }
 
+    });
+  </script>
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'dsc-slop',
+      }
+
+      let script = document.createElement('script');
+      script.src = "https://apply.devfolio.co";
+      document.head.append(script);
+
+      script.onload = function () {
+        new Devfolio(devfolioOptions);
+      }
+
+      script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+      }
     });
   </script>
 
