@@ -20,7 +20,6 @@
     --hue: 400;
 }
 
-
 /* body {
     min-height: 100vh;
     display: -webkit-box;
@@ -70,13 +69,11 @@ svg {
     fill: var(--bandana);
 }
 
-.bear__fur,
-.bear__paw {
+.bear__fur, .bear__paw {
     fill: var(--fur);
 }
 
-.bear__fur--light,
-.bear__paw--light {
+.bear__fur--light, .bear__paw--light {
     fill: var(--fur-light);
 }
 
@@ -121,11 +118,11 @@ label svg:nth-of-type(1) {
     display: none;
 }
 
- :checked~label svg:nth-of-type(1) {
+:checked~label svg:nth-of-type(1) {
     display: block;
 }
 
- :checked~label svg:nth-of-type(2) {
+:checked~label svg:nth-of-type(2) {
     display: none;
 }
 
@@ -141,11 +138,7 @@ body {
     background-color: #0C0C0C;
 }
 
-a,
-a:hover,
-a:after,
-a:visited,
-a:active {
+a, a:hover, a:after, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
@@ -208,9 +201,7 @@ a:active {
     } */
 }
 
-#front,
-#mid,
-#back {
+#front, #mid, #back {
     transition: margin-left 2s ease-in-out;
 }
 
@@ -234,9 +225,37 @@ a:active {
 
 .devfolio-div {
     position: relative;
-    left: auto;
+    left: 40%;
     right: auto;
     top: 80%;
+}
+
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770ff;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    padding-left: 6%;
+    text-align: center;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954bf !important;
 }
 
 .logo-custom img {
@@ -311,7 +330,6 @@ a:active {
     right: 6%;
     height: 80%;
 }
-
 
 /* #line img
 {
@@ -1492,7 +1510,6 @@ a:active {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8); */
 }
 
-
 /* .hint {
     position: absolute;
     left: 40%;
@@ -1544,6 +1561,31 @@ a:active {
         transform: translate(-50%, -50%);
         width: 35%;
     }
+    .devfolio-div {
+        position: relative;
+        left: 10%;
+        right: auto;
+        top: 80%;
+    }
+    #devfolio-apply-now {
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: #3770ff;
+        border-radius: 3px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 18px;
+        font-weight: 600;
+        padding: 12px 20px;
+        padding-left: 20%;
+        text-align: center;
+    }
     .landing-college-name-row {
         font-size: 1.5em;
     }
@@ -1569,6 +1611,31 @@ a:active {
         top: 50%;
         transform: translate(-50%, -50%);
         width: 50%;
+    }
+    .devfolio-div {
+        position: relative;
+        left: 15%;
+        right: auto;
+        top: 80%;
+    }
+    #devfolio-apply-now {
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: #3770ff;
+        border-radius: 3px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 18px;
+        font-weight: 600;
+        padding: 12px 20px;
+        padding-left: 20%;
+        text-align: center;
     }
     .landing-college-name-row {
         font-size: 1.6em;
@@ -1748,7 +1815,6 @@ a:active {
     color: rgba(229, 220, 220, 0.9);
 }
 
-
 /* #pololu
   {
       font-size: px;
@@ -1789,6 +1855,31 @@ a:active {
     #pc {
         display: none;
     }
+    .devfolio-div {
+        position: relative;
+        left: 20%;
+        right: auto;
+        top: 80%;
+    }
+    #devfolio-apply-now {
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: #3770ff;
+        border-radius: 3px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 18px;
+        font-weight: 600;
+        padding: 12px 20px;
+        padding-left: 20%;
+        text-align: center;
+    }
     .time-head {
         margin-top: 0;
     }
@@ -1796,7 +1887,6 @@ a:active {
         margin-bottom: 15%;
     }
 }
-
 
 /* .path {
     stroke-dasharray: 1114.6513671875;
@@ -1865,7 +1955,6 @@ a:active {
     }
 }
 
-
 /* @keyframes red-ball {
     from {
       offset-distance: 0%;
@@ -1918,8 +2007,7 @@ a:active {
     .footer-row {
         width: 50%;
     }
-    .footer-info,
-    .footer-social-links {
+    .footer-info, .footer-social-links {
         font-size: 16px;
         width: 50%;
         margin: auto;
@@ -1943,8 +2031,7 @@ a:active {
     .footer-title {
         font-size: 18px;
     }
-    .footer-info,
-    .footer-social-links {
+    .footer-info, .footer-social-links {
         margin-top: 5%;
         font-size: 14px;
         width: 80%;
@@ -2024,8 +2111,7 @@ a:active {
 }
 
 @media screen and (max-width: 992px) {
-    .sponsor-title,
-    .patron-title {
+    .sponsor-title, .patron-title {
         font-size: 30px;
     }
     .sponsor-us-row {
@@ -2041,8 +2127,7 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
-    .sponsor-title,
-    .patron-title {
+    .sponsor-title, .patron-title {
         font-size: 30px;
     }
     .associate-sponsor-image {
@@ -2216,7 +2301,7 @@ a:active {
 @media screen and (max-width: 992px) {
     .footer-wheel-img {
         width: 10%;
-        left:10%;
+        left: 10%;
     }
 }
 
