@@ -172,7 +172,7 @@ a:active {
 }
 
 .home-page {
-  height: 120vh;
+  height: 100vh;
   width: 100%;
   background-color: linear-gradient(
       180deg,
@@ -240,7 +240,7 @@ a:active {
   position: relative;
   left: 40%;
   right: auto;
-  top: 90%;
+  top: 80%;
 }
 
 #devfolio-apply-now {
@@ -259,8 +259,9 @@ a:active {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: 600;
-  padding: 12px 20px;
-  padding-left: 6%;
+  padding: 12px;
+  
+  justify-content: center;
   text-align: center;
 }
 
@@ -275,8 +276,9 @@ a:active {
 .logo-custom img {
   /* max-width: 900px; */
   /* width: 50%; */
-  max-width: 30%;
+  max-width: 20%;
   transform: scale(3.5);
+  
 }
 
 #logo {
@@ -1597,8 +1599,10 @@ a:active {
       sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
     font-weight: 600;
-    padding: 12px 20px;
-    padding-left: 20%;
+    /* padding: 12px 20px;
+    padding-left: 8%; */
+    padding: 12px;
+    justify-content: center;
     text-align: center;
   }
   .landing-college-name-row {
@@ -1649,8 +1653,10 @@ a:active {
       sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
     font-weight: 600;
-    padding: 12px 20px;
-    padding-left: 20%;
+    /* padding: 12px 20px;
+    padding-left: 8%; */
+    padding: 12px;
+    justify-content: center;
     text-align: center;
   }
   .landing-college-name-row {
@@ -1893,8 +1899,10 @@ a:active {
       sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
     font-weight: 600;
-    padding: 12px 20px;
-    padding-left: 20%;
+    /* padding: 12px 20px;
+    padding-left: 8%; */
+    padding: 12px;
+    justify-content: center;
     text-align: center;
   }
   .time-head {
