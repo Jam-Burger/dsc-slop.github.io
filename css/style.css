@@ -1579,7 +1579,8 @@ a:active {
   }
   .devfolio-div {
     position: relative;
-    left: 10%;
+    left: 20%;
+    /* align-self: center; */
     right: auto;
     top: 80%;
   }
