@@ -226,7 +226,7 @@ a:active {
 }
 
 .animation-custom svg {
-  max-width: 30%;
+  max-width: 25%;
   transform: scale(4) translateY(-45%);
 }
 
@@ -754,7 +754,7 @@ a:active {
     margin-bottom: 20px;
   }
   .logo-custom img {
-    max-width: 80%;
+    max-width: 70%;
     padding-right: 10%;
   }
 }
