@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DSC SLoP</title>
+  <title>DSC SLoP 2.0</title>
   <meta name="description"
     content="SLoP is initiative by Developer Student Club, DA-IICT to help students to get into Open Source Software world">
   <link rel="stylesheet" href="css/style-prev.css">
@@ -102,7 +102,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto navbar-list">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://slop.dscdaiict.in/">Participate</a>
+            <a class="nav-link js-scroll-trigger" href="https://slop.dscdaiict.tech/">Participate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -395,16 +395,23 @@
         <img src="images/slop2.png" />
       </div>
 
+      <br>
+      <br>
 
       <div class="devfolio-div">
+
         <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"
             viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px">
+            
             <path
               d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
             <path
               d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
-          </svg>Apply with Devfolio</button>
-      </div>
+          </svg>Click for Mentor Registration </button>
+
+         
+          
+      </div></div>
 
 
       <!-- partial -->
@@ -434,7 +441,7 @@
           <br><br> It’s modeled to be similar but smaller Google Summer of Code (GSoC), which is a global program that​
           matches students up with​ open​ source,​ free software​ and​ technology-related​​ organizations​ to​ write​
           code​ and​ get​
-          paid for the same.<br><br> SLoP is aimed at introducing new students in the area and help them gain
+          paid for the same.<br><br> SLoP 2.0 is aimed at introducing new students in the area and help them gain
           confidence.It doesn't matter if you are new to open source contributions, There is a lot you can learn.
           <br><br>
         </p>
@@ -451,7 +458,7 @@
           <div class="ribbon blue-box"><img src="images/Sponsor_us/ribbon.svg" alt=""></div>
           <div class="blue-box brch">
             <div class="link">
-              <p>Want to sponsor SLoP?<br>Shoot us an E-mail dsc@daiict.ac.in</p>
+              <p>Want to sponsor SLoP 2.0?<br>Shoot us an E-mail dsc@daiict.ac.in</p>
               <a href="./assets/brochure.pdf" download>Download Brochure</a>
             </div>
           </div>
@@ -595,11 +602,14 @@
 
       <div class="row" style="margin-bottom: 5%;">
         <div class="col-12 text-center">
-          <h1 style="font-size: 6em !important;">Prizes Worth</h1>
+          <h1 style="font-size: 6em !important;">Prizes Worth So much !!</h1>
         </div>
       </div>
 
+
+      
       <div class="prize-page">
+        <!--           Prizes box
         <div class="row" style="margin-top: 12.5%;">
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="prize-box">
@@ -638,13 +648,17 @@
             </div>
           </div>
         </div>
+        prizes box
+        -->    
         <div class="row" style="margin-bottom: 10rem;">
           <div class="col">
             <h3 class="text-center">We have goodies for every participants and mentors too!</h3>
           </div>
         </div>
       </div>
-      <!-- <div class="row" style="margin-bottom: 5%;" id="sponsors-page">
+    
+      <!-- 
+      <div class="row" style="margin-bottom: 5%;" id="sponsors-page">
         <div class="col-12 text-center">
           <h2> Video from our Platinum Sponsor Linux Foundation </h2>
         </div>
@@ -856,18 +870,20 @@
       }
 
       let script = document.createElement('script');
-      script.src = "https://apply.devfolio.co";
+      // script.src = "https://apply.devfolio.co";
+      script.src = "https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link";
       document.head.append(script);
 
       script.onload = function () {
         document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
         });
       }
 
       script.onerror = function () {
         document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+          // window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
         });
       }
     });
