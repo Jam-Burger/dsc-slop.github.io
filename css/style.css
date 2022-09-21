@@ -239,6 +239,7 @@ a:active {
 .devfolio-div {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   left: 40%;
   right: auto;
@@ -265,14 +266,16 @@ a:active {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: 600;
-  padding: 0.3em 0.5em;
+  padding: 0.3em 0.5em 0.4em 0.5em;
   
   justify-content: center;
   text-align: center;
+  font-size:x-large;
+
 }
 
 #devfolio-apply-now  img{
-  height: 90%;
+  height: 95%;
   margin-right: 8px;
 }
 
@@ -1592,8 +1595,13 @@ a:active {
     position: relative;
     left: 20%;
     /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
     right: auto;
     top: 80%;
+    width:fit-content;
+    font-size: x-large;
   }
   #devfolio-apply-now {
     -ms-flex-align: center;
@@ -1891,9 +1899,12 @@ a:active {
   }
   .devfolio-div {
     position: relative;
-    left: 18vw;
+    left: 25vw;
+    font-size: larger ;
     right: auto;
     top: 80%;
+
+    
   }
   #devfolio-apply-now {
     -ms-flex-align: center;
