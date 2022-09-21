@@ -28,6 +28,7 @@
   <meta name="msapplication-TileColor" content="#2d89ef">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 
   <!-- Facebook -->
   <meta property="og:url" content="https://slop.dscdaiict.in" />
@@ -85,6 +86,58 @@
       src: url(fonts/CeraPro-Medium.ttf) format("truetype");
       font-weight: 500;
       font-style: normal;
+    }
+
+    .fontgrad{
+      -webkit-text-size-adjust: 100%;
+    --jeans: #737373;
+    --ground-hue: 190;
+    --belt: #000;
+    --fur-dark: #73370d;
+    --fur: #8a420f;
+    --fur-light: #b8672e;
+    --muzzle: #e6b999;
+    --tank: #d9d9d9;
+    --nose: #0d0d0d;
+    --bandana: #f20d0d;
+    --keyboard-body: #404040;
+    --keyboard-key: #8c8c8c;
+    --keyboard-accent: #7359a6;
+    --bg: hsl(var(--ground-hue),60%,95%);
+    --background: #fff;
+    --accents-1: #fafafa;
+    --accents-2: #eaeaea;
+    --accents-3: #999;
+    --accents-4: #888;
+    --accents-5: #666;
+    --accents-6: #444;
+    --accents-7: #333;
+    --accents-8: #111;
+    --foreground: #000;
+    --error-light: #ff1a1a;
+    --error: #e00;
+    --error-dark: #c00;
+    --accent-light: #3291ff;
+    --accent: #0070f3;
+    --accent-dark: #0366d6;
+    --warning-light: #f7b955;
+    --warning: #f5a623;
+    --warning-dark: #f49b0b;
+    --off-white: #f7f7f7;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    background-image: linear-gradient(90deg,#ffbf02,#ed0082);
+    font-size: 2.25rem!important;
+    text-align: center!important;
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
     }
   </style>
 
@@ -399,7 +452,12 @@
 
       <div class="devfolio-div">
 
-        <button id="devfolio-apply-now">Click for Mentor Registration </button>
+        <!-- <button id="devfolio-apply-now">Click for Mentor Registration </button> -->
+        
+        <button id="devfolio-apply-now" style="text-transform:none">Apply with Devfolio</button>
+
+        
+
 
          
           
@@ -590,14 +648,19 @@
     </div>
 
       
-    <div class="container-fluid sponsors sponsor-section" id="sponsor-target">
+    <div class="container-fluid sponsors sponsor-section" id="sponsor-target" style="padding-bottom:4%">
 
-      <div class="row" style="margin-bottom: 5%;">
+      <div class="row" style="margin-bottom: 7%;">
         <div class="col-12 text-center">
-          <h1 style="font-size: 6em !important;">We have exciting prizes for the mentors !!</h1>
+          <p class="fontgrad">🚀We have exciting prizes for the participants and mentors... 🚀</p>
         </div>
       </div> 
 
+      <br>
+      <br>
+
+
+      
 
       <!--      prizes box
       <div class="prize-page">
@@ -649,8 +712,10 @@
         </div>
       </div>      prizes box
     --> 
-      <!-- 
-      <div class="row" style="margin-bottom: 5%;" id="sponsors-page">
+      
+      <div class="row" style="margin-bottom: 1vh; " id="sponsors-page">
+
+        <!-- 
         <div class="col-12 text-center">
           <h2> Video from our Platinum Sponsor Linux Foundation </h2>
         </div>
@@ -671,25 +736,30 @@
         </div>
       </div> 
 
-      <br /> <br />
-      <div class="row" style="margin-bottom: 5%;">
+    -->
+
+    </div>
+      
+      <div class="row" style="margin-bottom: 1vh; margin-top: 10vh;; ">
         <div class="col-12 text-center">
           <h2> Gold Sponsors </h2>
         </div>
       </div>
+      </div>
 
-      <div class="row justify-content-around main-sponsors" style="margin-bottom: 15%;">
+      <div class="row justify-content-around main-sponsors" style="margin-bottom: 5%; display: flex">
 
-      -->
-        <!--
-        <div class="col-12 col-lg-12 image-column diamond">
-          <a href="https://www.name.com/" target="_blank"><img src="images/sponsors/new_sponsors/name.jpg" class="sponsor-image"></a>
+      
+        
+        <div class="col-12 col-lg-4 image-column column platinum" style="flex:33.3% ;max-width: 20%; height:auto;">
+          <a href="https://devfolio.co/" target="_blank"><img src="images/sponsors/Devfolio.png" class="sponsor-image" ></a>
         </div>
 
 
-        <div class="col-12 col-lg-6 image-column platinum">
-          <a href="https://github.com/" target="_blank"><img src="images/sponsors/GitHub_Logo_White.png" class="sponsor-image"></a>
-        </div> -->
+        <div class="col-12 col-lg-4 image-column column platinum" style="flex:33.3%; max-width: 30%; height:auto;">
+          <a href="https://polygon.technology/" target="_blank"><img src="images/sponsors/polygon.png" class="sponsor-image"></a>
+        </div> 
+      </div>
 
         <!-- <div class="col-12 col-lg-6 image-column">
           <a href="https://devfolio.co/" target="_blank"><img src="images/sponsors/dev.svg" class="sponsor-image"></a>
@@ -704,6 +774,7 @@
         </div> 
       </div>
 
+    -->
       <br><br>
       <div class="row" id="content2" style="margin-bottom: 5%;">
         <div class="col-sm-12 text-center">
@@ -715,17 +786,20 @@
       <div class="row justify-content-center" style="margin-bottom: 10%;">
 
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://fold.money/" target="_blank"><img src="images/sponsors/Logo-White.png" style="width:40%;"
+          <a href="https://filecoin.io/" target="_blank"><img src="images/sponsors/FilecoinPng.png" style="width:40%;"
               class="sponsor-image"></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://matic.network/" target="_blank"><img src="images/sponsors/matic.png" style="width:60%;"
+          <a href="https://solana.com/" target="_blank"><img src="images/sponsors/solana.png" style="width:40%;"
               class="sponsor-image"></a>
         </div>
+
+        
         <div class="col-12 col-md-6 col-lg-3 image-column">
-          <a href="https://www.portis.io/" target="_blank"><img src="images/sponsors/portis.png" style="width:60%;"
+          <a href="https://replit.com/" target="_blank"><img src="images/sponsors/replit.svg" style="width:40%;"
               class="sponsor-image"></a>
         </div>
+        <!--
         <div class="col-12 col-md-6 col-lg-3 image-column">
           <a href="https://www.sashido.io/en/" target="_blank"><img src="images/sponsors/sashido-logo-for sites.png"
               style="width:75%;" class="sponsor-image"></a>
@@ -753,8 +827,11 @@
             <img src="images/sponsors/lyearn.png" style="width: 40%;" class="sponsor-image" /></a>
         </div>
       </div>
+
+
+      -->
     </div>
-    -->
+    
   </div>
 
 
@@ -858,24 +935,25 @@
     document.addEventListener('DOMContentLoaded', function () {
       let devfolioOptions = {
         buttonSelector: '#devfolio-apply-now',
-        key: 'dsc-slop',
+        key: 'SLoP2.0',
       }
 
       let script = document.createElement('script');
-      // script.src = "https://apply.devfolio.co";
-      script.src = "https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link";
+       script.src = "https://apply.devfolio.co";
+      //script.src = "https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link";
       document.head.append(script);
 
       script.onload = function () {
         document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
+          // window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
+          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
         });
       }
 
       script.onerror = function () {
         document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-          // window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
+          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+          // window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScsJ8a2oXF5Y1IAvngyhi9A7_nIWJSgkqc7vAug1evsjv39zg/viewform?usp=sf_link' + devfolioOptions.key;
         });
       }
     });
