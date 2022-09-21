@@ -237,11 +237,16 @@ a:active {
 }
 
 .devfolio-div {
+  display: flex;
+  align-items: center;
   position: relative;
   left: 40%;
   right: auto;
   top: 80%;
+  width: fit-content;
 }
+
+
 
 #devfolio-apply-now {
   -ms-flex-align: center;
@@ -250,6 +255,7 @@ a:active {
   background-color: #3770ff;
   border-radius: 3px;
   border: none;
+  height: 2em;
   color: #ffffff;
   cursor: pointer;
   display: -ms-flexbox;
@@ -259,10 +265,15 @@ a:active {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: 600;
-  padding: 12px;
+  padding: 0.3em 0.5em;
   
   justify-content: center;
   text-align: center;
+}
+
+#devfolio-apply-now  img{
+  height: 90%;
+  margin-right: 8px;
 }
 
 #devfolio-apply-now:not([disabled]) {
