@@ -236,6 +236,13 @@ a:active {
   top: 55%;
 }
 
+.devfolio-btn{
+  position: absolute;
+  top:80vh;
+  margin: auto;
+  width: fit-content;
+  background-color: red;
+}
 
 
 .apply-button {
