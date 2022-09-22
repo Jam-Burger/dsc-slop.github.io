@@ -251,9 +251,6 @@ a:active {
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 40%;
-  right: auto;
-  top: 80%;
   width: fit-content;
 }
 
@@ -852,9 +849,6 @@ a:active {
   .logo-custom img {
     max-width: 80%;
     padding-right: 10%;
-  }
-  .devfolio-btn{
-    left:60vw
   }
 }
 
@@ -1608,13 +1602,10 @@ a:active {
   }
   .apply-button {
     position: relative;
-    left: 20%;
     /* align-self: center; */
     display: flex;
     justify-content: center;
     text-align: center;
-    right: auto;
-    top: 80%;
     width:fit-content;
     font-size: x-large;
   }
@@ -1665,12 +1656,6 @@ a:active {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-  }
-  .apply-button {
-    position: relative;
-    left: 15%;
-    right: auto;
-    top: 80%;
   }
   /*#devfolio-apply-now {
     -ms-flex-align: center;
@@ -1914,10 +1899,7 @@ a:active {
   }
   .apply-button {
     position: relative;
-    left: 25vw;
     font-size: larger ;
-    right: auto;
-    top: 80%;
 
     
   }
