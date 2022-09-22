@@ -239,10 +239,10 @@ a:active {
 .devfolio-btn{
   position: absolute;
   top:80vh;
-  margin: auto;
-  width: fit-content;
-  left: 50vw;
-  transform: translateX(-55%);
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+  /* background-color: red; */
 }
 
 
@@ -697,6 +697,7 @@ a:active {
     max-width: 80%;
     margin: 0 auto;
   }
+ 
 }
 
 @media screen and (min-width: 1300px) {
@@ -781,6 +782,7 @@ a:active {
     max-width: 70%;
     padding-right: 10%;
   }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -850,6 +852,9 @@ a:active {
   .logo-custom img {
     max-width: 80%;
     padding-right: 10%;
+  }
+  .devfolio-btn{
+    left:60vw
   }
 }
 
