@@ -241,7 +241,8 @@ a:active {
   top:80vh;
   margin: auto;
   width: fit-content;
-  background-color: red;
+  left: 50vw;
+  transform: translateX(-55%);
 }
 
 
