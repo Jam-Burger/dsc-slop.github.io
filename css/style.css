@@ -242,6 +242,7 @@ a:active {
  width: 100vw;
  display: flex;
  justify-content: center;
+ left: 0;
   /* background-color: red; */
 }
 
@@ -250,8 +251,6 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  width: fit-content;
 }
 
 
@@ -1600,14 +1599,8 @@ a:active {
     transform: translate(-50%, -50%);
     width: 35%;
   }
-  .apply-button {
-    position: relative;
-    /* align-self: center; */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width:fit-content;
-    font-size: x-large;
+  .devfolio-btn{
+    left: -30vw;
   }
   /*#devfolio-apply-now {
     -ms-flex-align: center;
@@ -1647,6 +1640,10 @@ a:active {
   .landing-college-name-row {
     font-size: 1.7em;
   }
+  .devfolio-btn
+  {
+    left: -75%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1656,6 +1653,10 @@ a:active {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+  }
+  .devfolio-btn
+  {
+    left: -25%;
   }
   /*#devfolio-apply-now {
     -ms-flex-align: center;
@@ -1711,6 +1712,10 @@ a:active {
     transform: translate(-45%, 0);
     margin-bottom: 15px;
     width: 85%;
+  }
+  .devfolio-btn
+  {
+    left: 0;
   }
 }
 
@@ -1897,12 +1902,7 @@ a:active {
   #pc {
     display: none;
   }
-  .apply-button {
-    position: relative;
-    font-size: larger ;
 
-    
-  }
   /*#devfolio-apply-now {
     -ms-flex-align: center;
     -webkit-box-align: center;
